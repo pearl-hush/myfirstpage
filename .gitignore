@@ -2,3 +2,4 @@ node_modules
 public/assets
 src/**/*.css.d.ts
 src/**/*.styl.d.ts
+.DS_Store
