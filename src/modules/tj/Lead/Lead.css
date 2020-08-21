@@ -1,0 +1,9 @@
+.component {
+  contain: '';
+}
+
+.lead {
+  font-size: 28px;
+  font-family: Charter,Georgia,"Times New Roman",Times,serif;
+  line-height: 35px;
+}

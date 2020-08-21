@@ -1,0 +1,23 @@
+.collectionLine {
+  font-size: 14px;
+  box-sizing: border-box;
+  padding-bottom: 4px;
+  letter-spacing: .3px;
+  color: inherit;
+  color: rgba(0, 0, 0, 0.877);
+  line-height: 20px;
+  text-decoration: none;
+  background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1));
+  background-repeat: repeat-x;
+  background-size: 100% 1px;
+  background-position: 0 100%;
+}
+
+.lineWrapper {
+  margin-bottom: 10px;
+}
+
+.collectionLine:visited {
+  text-decoration: none;
+  color: inherit;
+}

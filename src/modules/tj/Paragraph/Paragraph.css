@@ -1,0 +1,21 @@
+.component {
+  contain: '';
+}
+
+.paragraph {
+  display: flex;
+}
+
+.left {
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.right {
+  height: 0;
+  margin-left: 40px;
+  width: 50%;
+  box-sizing: border-box;
+  padding-left: 72px;
+  line-height: 20px;
+}

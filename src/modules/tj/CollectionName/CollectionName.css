@@ -1,0 +1,42 @@
+.collectionName {
+  display: flex;
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+  padding-bottom: 20px;
+}
+
+.collectionName:visited {
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.collectionPicture {
+  margin-right: 15px;
+  background-size: cover;
+  background-position: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 14px;
+}
+
+.collectionText {
+  
+}
+
+.collectionTitle {
+  padding-bottom: 5px;
+  font-size: 17px;
+  font-weight: 900;
+  line-height: 20px;
+}
+
+.collectionTitle:hover {
+  color: rgb(172, 0, 0);
+}
+
+.articleCounter {
+  font-size: 12px;
+  line-height: 20px;
+}

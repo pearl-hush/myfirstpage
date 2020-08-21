@@ -1,0 +1,28 @@
+.collectionHeader {
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(182, 182, 182, 0.253);
+}
+
+.collectionTitle {
+  display: flex;
+  justify-content: space-between;
+  font-size: 28px;
+}
+
+.moreArticles {
+  box-sizing: border-box;
+  padding: 0 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  background: none;
+  border: 1px solid rgba(94, 94, 94, 0.466);
+  cursor: pointer;
+}
+
+.moreArticles:focus {
+  outline: none;
+}
+
+.moreArticles:hover {
+  color: rgb(172, 0, 0);
+}

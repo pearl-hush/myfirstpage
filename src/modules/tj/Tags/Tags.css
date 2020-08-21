@@ -1,0 +1,62 @@
+.component {
+  contain: '';
+}
+
+.tags {
+  margin-top: 24px;
+  color: rgb(150, 150, 150);
+}
+
+.tagsFav {
+  font-size: 20px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.tagsFav:visited {
+  text-decoration: none;
+  color: rgb(150, 150, 150);
+}
+
+.tagsFav:hover {
+  color: rgb(82, 82, 82);
+}
+
+.tagsSummary {
+  display: flex;
+  margin-top: 16px;
+  font-size: 14px;
+  align-items: center;
+  line-height: 20px;
+}
+
+.iconTags {
+  margin-right: 4px;
+  margin-bottom: 2px;
+}
+
+.summary {
+  align-items: center;
+  margin-right: 8px;
+  color: rgb(150, 150, 150);
+  text-transform: uppercase;
+}
+
+.tagsTopics {
+  display: flex;
+}
+
+.topic {
+  padding-left: 4px;
+  text-decoration: none;
+}
+
+.topic:visited {
+  text-decoration: none;
+  color: rgb(150, 150, 150);
+}
+
+.topic:hover {
+  color: rgb(82, 82, 82);
+}
+

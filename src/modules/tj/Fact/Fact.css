@@ -1,0 +1,28 @@
+.component {
+  contain: '';
+}
+
+.fact {
+  display:flex;
+  width: 200px;
+  flex-direction: column;
+  padding-top: 470px;
+}
+
+.factImage {
+  width: 200px;
+  margin-bottom: 8px;
+}
+
+.factLink {
+  text-decoration: none;
+  color: rgb(4, 85, 119);
+}
+
+.factLink:visited {
+  text-decoration: none;
+}
+
+.factLink:hover {
+  color: rgb(189, 29, 0);
+}

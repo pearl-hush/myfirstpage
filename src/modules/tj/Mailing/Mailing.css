@@ -1,0 +1,82 @@
+.component {
+  contain: '';
+}
+
+.mailing {
+  display: flex;
+  background: rgba(0,0,0,.03);
+  margin-top: 64px;
+  margin: 0 -15px 75px;
+}
+
+.mailingForm {
+  width: 50%;
+  padding: 15px 20px 25px 15px;
+}
+
+.formHeader {
+  box-sizing: border-box;
+  letter-spacing: 0.2px;
+}
+
+.formTitle {
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+
+.formSubtitle {
+  font-size: 17px;
+  line-height: 25px;
+  margin-bottom: 60px;
+}
+
+.formInput {
+  display: flex;
+  max-width: 500px;
+}
+
+.formEmail {
+  width: 100%;
+  margin-right: 8px;
+  border-radius: 5px;
+  border: 1px solid #9b9b9b;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  line-height: 20px;
+  font-size: 17px;
+  color: #bfbfbf;
+  opacity: .5;
+}
+
+.formEmail:focus {
+  outline: none;
+}
+
+.formSend {
+  box-sizing: border-box;
+  padding: 10px 20px;
+  font-size: 17px;
+  background: #2e2ee5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.formSend:focus {
+  outline: none;
+}
+
+.formSend:hover {
+  color: #bfbfbf;
+  cursor: pointer;
+}
+
+.mailingImage {
+  width: 50%;
+  background-image: url('https://journal.tinkoff.ru/media/banner-subbotnik-pic-desktop.xfuhedr0qfsy.png');
+  background-size: contain;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}

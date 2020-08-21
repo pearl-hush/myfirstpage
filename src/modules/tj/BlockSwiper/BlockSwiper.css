@@ -1,0 +1,66 @@
+.blockSwiper {
+  width: 390px;
+  flex-shrink: 0;
+  display: block;
+  text-decoration: none;
+  padding-right: 25px;
+}
+
+.blockSwiper:visited {
+  color: inherit;
+}
+
+.blockImage {
+  background-image: url('https://img.r7.com/images/coala-caracteristicas-alimentacao-e-curiosidades-25042020100924531');
+  background-size: cover;
+  height: 305px;
+  margin-bottom: 16px;
+  border-radius: 2px;
+}
+
+.blockText {
+  margin-bottom: 8px;
+  font-size: 21px;
+  font-weight: 600;
+  color: rgb(48, 48, 48);
+  letter-spacing: .5px;
+  line-height: 24px;
+}
+
+.blockText:hover {
+  color: rgb(175, 3, 3);
+}
+
+.blockSummary {
+  display: flex;
+  font-size: 12px;
+  color: rgb(180, 180, 180);
+}
+
+.blockDate {
+  margin-right: 8px;
+}
+
+.blockViews {
+  margin-right: 8px;
+}
+
+.blockComments {
+  margin-right: 8px;
+}
+
+.blockComments:hover {
+  color: rgb(48, 48, 48);
+}
+
+.blockFav {
+
+}
+
+.blockFav:hover {
+  color: rgb(48, 48, 48);
+}
+
+.icon {
+  margin-right: 4px;
+}

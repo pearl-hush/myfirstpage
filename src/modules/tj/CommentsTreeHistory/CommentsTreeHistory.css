@@ -1,0 +1,174 @@
+.component {
+  contain: '';
+}
+
+.commentsTreeHistory {
+  width: 830px;
+  margin-bottom: 35px;
+}
+
+.commentsTreeHistoryHeader {
+  box-sizing: border-box;
+  display: flex;
+}
+
+.commentsTreeHistoryImage {
+  /* height: 80px;
+  width: 80px;
+  border-radius: 50%; */
+  background-image: url('https://img.r7.com/images/coala-caracteristicas-alimentacao-e-curiosidades-25042020100924531');
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.commentsTreeHistoryMain {
+  display: flex;
+  margin-left: 16px;
+  align-items: flex-start;
+  align-items: baseline;
+}
+
+.commentsTreeHistoryName {
+  margin-right: 5px;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.commentsTreeHistoryName:hover {
+  color: rgb(112, 112, 112);
+  cursor: pointer;
+}
+
+.commentsTreeHistoryPost {
+  background: rgb(236, 236, 236);
+  border: solid 4px rgb(236, 236, 236);
+  border-radius: 16px; 
+  padding: 0px 4px;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.788);
+}
+
+.commentsTreeHistoryDate {
+  margin-left: 8px;
+  font-size: 12px;
+  color: rgb(138, 138, 138);
+}
+
+.commentsTreeHistoryDate:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.commentsTreeHistoryBodyText {
+  padding-left: 14px;
+  box-sizing: border-box;
+  padding-left:58px;
+  margin-right: 60px;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.commentsTreeHistoryBodyTextLine {
+  margin-bottom: 16px;
+}
+
+.commentsTreeHistoryBodyReplyLike {
+  color: gray;
+  margin-top: 16px;
+}
+
+.space {
+  margin-right: 16px;
+}
+
+.commentsTreeHistoryBodyLikeCount {
+  color: green;
+  cursor: pointer;
+}
+
+.commentsTreeHistoryBodyReply {
+
+}
+
+.commentsTreeHistoryBodyReply:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.commentsTreeHistoryBodyLike {
+
+}
+
+.commentsTreeHistoryBodyLike:hover {
+  color: black;
+  cursor: pointer; 
+}
+
+.commentsTreeHistoryBodyDislike {
+
+}
+
+.commentsTreeHistoryBodyDislike:hover{
+  color: black;
+  cursor: pointer;  
+}
+
+.commentsTreeWrap {
+  display: flex;
+}
+
+.commentsLikesWrap {
+  display: flex;
+  position: relative;
+}
+
+.commentsTreeOverviewCard {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.theCard {
+  display: flex;
+  position: relative;
+  background: rgba(0, 0, 0, 0.85);
+  border: solid 6px rgba(0, 0, 0, -4);
+  border-radius: 6px; 
+  padding: 2px 8px;
+  box-sizing: border-box;
+}
+
+.theCard::after {
+  content: '';
+  border: 5px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.85);
+  border-top: 0;
+  position: absolute;
+  top: -11px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: 0px;
+  box-sizing: border-box;
+}
+
+.theCardPositive {
+  color: green;
+  padding-right: 12px;
+}
+
+.theCardNegative {
+  color: red;
+  white-space: nowrap;
+}
+
+.commentsTreeHistoryBodyLikeCount:hover ~ .commentsTreeOverviewCard {
+  opacity: 1;
+}

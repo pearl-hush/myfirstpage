@@ -1,0 +1,24 @@
+.component {
+  contain: '';
+}
+
+.share {
+  margin-top: 16px;
+  line-height: 30px;
+  font-size: 24px;
+  color: rgb(150, 150, 150);
+}
+
+.sm {
+  text-decoration: none;
+  color: rgba(150, 150, 150, 0.568);
+  padding-right: 12px;
+}
+
+.sm:visited {
+  color: inherit;
+}
+
+.sm:hover {
+  color: rgb(82, 82, 82);
+}

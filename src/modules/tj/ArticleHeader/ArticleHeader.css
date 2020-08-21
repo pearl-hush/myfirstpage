@@ -1,0 +1,60 @@
+.articleHeader {
+  font-size: 14px;
+  margin-top: 16px;
+  margin-bottom: 56px;
+  height: 306px;
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
+    url('https://www.thinkright.me/wp-content/uploads/2019/09/Untitled-design-27.jpg');
+  background-size: contain;
+}
+
+.articleSummary {
+  display: flex;
+  padding-left: 24px;
+  padding-top: 32px;
+  margin-bottom: 16px;
+  align-items: baseline;
+}
+
+.articleSummary a {
+  text-decoration: none;
+}
+
+.articleSummary a:hover {
+  color: rgb(230, 230, 230);
+}
+
+.articleSummary a:visited {
+  text-decoration: none;
+} 
+
+.summary {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+  color: rgb(150, 150, 150);
+  text-transform: uppercase;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.topicLink {
+  border-bottom: solid 1px rgb(150, 150, 150);
+}
+
+.topicLink:hover {
+  border-bottom-color: rgb(230, 230, 230);
+}
+
+.h1 {
+  padding-left: 24px;
+  color: white;
+  font-size: 55px;
+  width: 70%;
+  line-height: 60px;
+  font-weight: 600;
+  margin: 0;
+}
