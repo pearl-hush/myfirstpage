@@ -1,0 +1,49 @@
+.covidPage {
+ 
+}
+
+.headerMargin {
+  margin: 24px 32px 43px 32px;
+}
+
+.title {
+  font-family: Georgia;
+  font-size: 40px;
+  color: #e34242;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.chartRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.colWrapper {
+  width: calc((100%/2) - 16px);
+}
+
+.disclaimer {
+  max-width: 600px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6a7185;
+  margin: auto;
+  letter-spacing: .5px;
+  text-align: center;
+  margin-bottom: 87px;
+}
+
+.link {
+  text-decoration: none;
+  color: #3172f5;
+}
+
+.link:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover {
+  opacity: 70%;
+}

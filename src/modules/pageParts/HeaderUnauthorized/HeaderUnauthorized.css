@@ -1,0 +1,58 @@
+.headerUnauthorized {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+}
+
+.logoMacbook {
+  height: 32px;
+  width: 132px;
+  background-color: blueviolet;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.topics {
+  display: flex;
+}
+
+.topic {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 24px;
+  color: #4d556c
+}
+
+.topic:visited {
+  text-decoration: none;
+  /* color: inherit; */
+}
+
+.topic:hover {
+  color: #3172f5;
+}
+
+.topicCovid {
+  text-decoration: none;
+  color:#e34242
+}
+
+.topicCovid:hover {
+  color:#e34242
+}
+
+.topicCovid:visited {
+  text-decoration: none;
+  /* color: inherit; */
+}
+
+
+

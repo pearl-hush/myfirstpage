@@ -1,0 +1,10 @@
+.chartWrapper {
+  margin-top: 57px;
+  margin-bottom: 48px;
+}
+
+.chartBlock {
+  border-radius: 4px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+  height: 341px;
+}

@@ -1,0 +1,58 @@
+.selectorCategory {
+  margin: 0 12px;
+  position: relative;
+}
+
+.selectorTitle {
+  font-size: 14px;
+  letter-spacing: .5px;
+  color: #6a7185;
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  pointer-events: none;
+}
+
+.selectorTitle:hover {
+  cursor: pointer;
+}
+
+.selectorSubtitle {
+  border: solid 1px #3172f59a;
+  border-radius: 4px;
+  background-color: #f4f6fd;
+  padding: 8px 12px;
+  box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+  appearance: none;
+  font-size: 18px;
+  font-weight: 600;
+  /* background: none; */
+  color: #3172f5;
+  cursor: pointer;
+  min-width: 156px;
+  padding-right: 32px;
+  padding-top: 24px;
+  padding-left: 12px;
+  padding-bottom: 6px;
+}
+
+.selectorSubtitle:hover {
+  border: solid 1px #2556b8d7;
+}
+
+.selectorSubtitle:focus {
+  outline: 0;
+  box-shadow: 0 0 1px 3px rgba(59,153,252,.7);
+}
+
+.arrow {
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #3172f5;
+  top: 33px;
+  right: 12px;
+  pointer-events: none;
+}
